@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+}
+
+header {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 8px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background: #2e7d32;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.item select {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
