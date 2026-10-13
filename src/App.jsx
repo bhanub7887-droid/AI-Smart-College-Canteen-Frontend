@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:8080";
+const API = "https://ai-smart-college-canteen-backend-1.onrender.com";
 
 function App() {
   const [menu, setMenu] = useState([]);
